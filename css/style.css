@@ -1,0 +1,194 @@
+body{
+	font-family: Consolas, monaco, monospace;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+label{
+	font-weight: bold;
+}
+
+header{
+	position: relative;
+	background-color: #ffff67;
+	border-bottom: 8px solid #008dff;
+	height: 39px;
+	padding-top: 40px;
+}
+
+footer {
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	border-top: solid 3px #000;
+	height:96px;
+	background-color: #fff;
+}
+
+.profile{
+	position: relative;
+	float: right;
+	width: 10%;
+	padding-right: 30px;
+	bottom: 30px;
+}
+
+.profile > .image{
+	float: left;
+	width: 50%;
+}
+
+.profile > .name{
+	float: left;
+	width: 50%
+}
+
+.profile-picture{
+	width: 100%;
+	border-radius: 100%;
+}
+
+.nav-buttons{
+	float: left;
+	background-color: white;
+	width: 10%;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+	border-left: solid 1px #008dff;
+}
+
+.active{
+	background-color: #008dff;
+	color: #fff;
+}
+
+
+.nav-buttons:hover{
+	background-color: #00B6FF;
+	color: #fff;
+}
+
+.content{
+	padding: 30px;
+}
+
+.content-left{
+	position: relative;
+	width: 70%;
+	display: inline-block;
+	float: left;
+}
+
+.content-right{
+	position: relative;
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+
+.content-right img{
+	width: 50%;
+	height: 170px;
+}
+
+.content-col-two{
+	position: relative;
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+.content-col-two{
+	position: relative;
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+.profile-picture-form{
+	border: thin solid #000;
+	width: 25%;
+}
+
+table.table-profile > tbody > tr > td{
+	padding: 10px;
+}
+
+table.student-gegevens > tbody > tr > td{
+	padding-right: 10px;
+}
+
+.footer-bottom-row {
+	padding: 0px 30px;
+}
+
+.right{
+	float: right;
+}
+
+table.voortgang-table > tbody > tr > td{
+	padding: 10px;
+}
+
+.voortgang-table{
+	background-color: #c9fd9b; 
+	border: solid thin #000;
+}
+
+table.voortgang-table td{
+	border: solid thin #000;
+}
+
+table.voortgang-table th{
+	font-weight: bold;
+	border: solid thin #000;
+}
+
+table.voortgang-table input{
+	border: none;
+	background-color: #c9fd9b; 
+}
+
+
+.button{
+	margin-top:5px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #b1b1b1;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.62);
+	border: none;
+}
+
+.button-primary{
+	padding: 10px;
+	font-size: 14px;
+	background-color: #008dff;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.62);
+	color: #fff;
+
+}
+
+.location{
+	padding: 30px 0px;
+	width: 50%;
+}
+
+.location img{
+	width: 75%;
+}
+
+.stats{
+	padding: 30px 0px;
+	width: 50%;
+}
+
+.stats img{
+	width: 75%;
+}

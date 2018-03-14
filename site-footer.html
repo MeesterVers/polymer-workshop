@@ -1,0 +1,37 @@
+<link rel="import" href="bower_components/polymer/polymer-element.html">
+
+<dom-module id="site-footer">
+	<template>
+		<footer>
+			<center><p>Deze opdracht is gemaakt in het kader van het van Analyse &amp; interfaces</p></center>
+			<div class="footer-bottom-row">
+				<div class="content-col-two">
+					<p>Auteur: Kadeem Vers</p>
+				</div>
+				<div class="content-col-two">
+					<p class="right"><time>14-2-2018</time></p>
+				</div>
+			</div>
+		</footer>
+	</template>
+
+	<script>
+    /**
+     * @customElement
+     * @polymer
+     */
+     class SiteFooter extends Polymer.Element {
+     	static get is() { return 'site-footer'; }
+     	static get properties() {
+     		return {
+     			prop1: {
+     				type: String,
+     				value: 'site-footer'
+     			}
+     		};
+     	}
+     }
+
+     window.customElements.define(SiteFooter.is, SiteFooter);
+ </script>
+</dom-module>

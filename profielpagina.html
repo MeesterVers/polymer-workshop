@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="/bower_components/webcomponentsjs/webcomponents-loader.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+
+	<link rel = "import" href = "bower_components/paper-input/paper-input.html">
+	<link rel="import" href="site-footer.html">
+	<title>Profiel</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<a class= "nav-buttons" href="homepagina.html">Home</a>
+			<a class= "active nav-buttons" href="profielpagina.html">Profiel</a>
+			<a class= "nav-buttons" href="voortgangpagina.html">Voortgang</a>
+		</nav>
+		<div class="profile">
+			<div class="name">
+				<p>Jens</p>
+			</div>
+			<div class="image">
+				<img class="profile-picture" src="img/profile-picture.jpg">
+			</div>
+		</div>
+	</header>
+	<main>
+		<section>
+			<div class="content">
+				<h1>Profiel</h1>
+				<div class="content-col-two">
+
+					<table class="table-profile">
+						<tbody>
+							<tr>
+								<td><label>Voornaam: </label></td>
+								<td><input id="voornaam" type="text" name="voornaam" required="required"></td>
+							</tr>
+							<tr>
+								<td><label>Achternaam: </label></td>
+								<td><input id="achternaam" type="text" name="achternaam" required="required"></td>
+							</tr>
+							<tr>
+								<td><label>Adres: </label></td>
+								<td><textarea id="adres" name="adres" required="required"></textarea></td>
+							</tr>
+							<tr>
+								<td><label>Email: </label></td>
+								<td><input id="email" type="email" name="email" required="required"></td>
+							</tr>
+							<tr>
+								<td><label>Telefoon: </label></td>
+								<td><input id="telefoon" type="number" name="telefoon" required="required"></td>
+							</tr>
+							<tr>
+								<td><label>Geslacht: </label></td>
+								<td>
+									<input type="radio" name="geslacht"> Man
+									<input type="radio" name="geslacht"> Vrouw
+								</td>
+							</tr>
+							<tr>
+								<td><label>Geboortedatum: </label></td>
+								<td><input type="date" name="geboortedatum" required="required"></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="content-col-two">
+					<table class="table-profile">
+						<tbody>
+							<tr>
+								<td><label>Studentnr: </label></td>
+								<td><input type="number" name=""></td>
+							</tr>
+							<tr>
+								<td><label>Klas: </label></td>
+								<td>
+									<select>
+										<option value="V1A">V1A</option>
+										<option value="V1B">V1B</option>
+										<option value="V1C">V1C</option>
+										<option value="V1D">V1D</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td><label>Gekozen Studierichting: </label></td>
+								<td>
+									<input type="radio" name="richting"> SNE
+									<br>
+									<input type="radio" name="richting"> BIM
+									<br>
+									<input type="radio" name="richting"> SIE
+									<br>
+									<input type="radio" name="richting"> TI
+								</td>
+							</tr>
+							<br>
+							<tr>
+								<td>Foto: </td>
+								<td>
+									<img id="new-profile-picture" class="profile-picture-form" src="img/profile-picture.jpg">
+									<br>
+									<input class="button-primary" id="change-dp-button" type="file" name="change" value="Change">
+									<button class="button-primary"  onclick="changeUserDp()">Opslaan</button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</section>
+	</main>
+	<site-footer></site-footer>
+</body>
+</html>

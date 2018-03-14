@@ -1,0 +1,7 @@
+{
+  "name": "workshop1",
+  "short_name": "workshop1",
+  "description": "polymrt leer opdracht",
+  "start_url": "/",
+  "display": "standalone"
+}
